@@ -1,6 +1,8 @@
 import { NgModule, ErrorHandler } from "@angular/core";
 import { IonicApp, IonicModule, IonicErrorHandler } from "ionic-angular";
 
+import { BrowserModule } from "@angular/platform-browser";
+
 import { GeofenceDetailsPage } from "../pages/geofence-details/geofence-details";
 import { GeofenceListItem } from "../components/geofence-list-item/geofence-list-item";
 import { GeofenceListPage } from "../pages/geofence-list/geofence-list";
