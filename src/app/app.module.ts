@@ -3,6 +3,9 @@ import { IonicApp, IonicModule, IonicErrorHandler } from "ionic-angular";
 
 import { BrowserModule } from "@angular/platform-browser";
 import { HttpModule } from '@angular/http';
+import { StatusBar } from '@ionic-native/status-bar';
+import { SplashScreen } from '@ionic-native/splash-screen';
+
 
 import { GeofenceDetailsPage } from "../pages/geofence-details/geofence-details";
 import { GeofenceListItem } from "../components/geofence-list-item/geofence-list-item";
@@ -27,6 +30,8 @@ const components = [
   bootstrap: [IonicApp],
   entryComponents: components,
   providers: [
+    StatusBar,
+    SplashScreen,
     {provide: ErrorHandler, useClass: IonicErrorHandler},
     GeofenceService
   ]
