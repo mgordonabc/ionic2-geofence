@@ -2,6 +2,7 @@ import { NgModule, ErrorHandler } from "@angular/core";
 import { IonicApp, IonicModule, IonicErrorHandler } from "ionic-angular";
 
 import { BrowserModule } from "@angular/platform-browser";
+import { HttpModule } from '@angular/http';
 
 import { GeofenceDetailsPage } from "../pages/geofence-details/geofence-details";
 import { GeofenceListItem } from "../components/geofence-list-item/geofence-list-item";
@@ -19,6 +20,8 @@ const components = [
 @NgModule({
   declarations: components,
   imports: [
+    BrowserModule,
+    HttpModule,
     IonicModule.forRoot(MyApp)
   ],
   bootstrap: [IonicApp],
