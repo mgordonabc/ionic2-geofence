@@ -1,4 +1,4 @@
-# Ionic2 geofence sample project
+# Upgrading to Ionic3 from Ionic2 geofence sample project
 
 Sample project using [cordova geofence plugin](https://github.com/cowbell/cordova-plugin-geofence) built with Ionic2 framework
 
