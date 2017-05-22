@@ -2,6 +2,9 @@ import { Component, ViewChild } from "@angular/core";
 import { Nav, Platform, AlertController, MenuController } from "ionic-angular";
 import * as Leaflet from "leaflet";
 
+import { StatusBar } from '@ionic-native/status-bar';
+import { SplashScreen } from '@ionic-native/splash-screen';
+
 import { GeofenceListPage } from "../pages/geofence-list/geofence-list";
 import { GeofenceService } from "../services/geofence-service";
 import { GeofencePluginMock, TransitionType } from "../services/geofence-plugin-mock";
